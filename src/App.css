@@ -1,0 +1,531 @@
+.App {
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: black;
+}
+
+
+.header {
+  background-color: rgb(231, 225, 225);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 70px;
+}
+
+.headerLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  font-weight: 700;
+  font-size: 15px;
+  height: 40px;
+}
+
+.menuOption {
+  line-height: 40px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.content {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: black;
+}
+
+.firstColumn {
+  width: 500px;
+  min-height: 200px;
+}
+
+.secondColumn {
+  width: 800px;
+  min-height: 200px;
+}
+
+
+.requestAndPay {
+  width: 100%;
+  height: 425px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: corner;
+  position: absolute;
+  top: 160px;
+  right: -35px;
+  z-index: 0;
+}
+
+.quickOption {
+  background-color: #0e078e;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color: whitesmoke;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.custom-dollar-icon {
+  position: relative;
+  left: 68px;
+  /* Adjust this value as needed */
+  color: white;
+  z-index: 10;
+
+}
+
+
+.quickOption span {
+  position: absolute;
+  top: 0px;
+  right: -100px;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.numReqs {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  height: 25px;
+  width: 25px;
+  border-radius: 100px;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quickOption:hover {
+  cursor: pointer;
+}
+
+.deliverytime {
+  width: 100%;
+  height: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 300px;
+  right: -100px;
+  white-space: nowrap;
+  transform: translateY(5px);
+  z-index: 0;
+}
+
+.paytext {
+  left: 30px;
+  transform: translateY(5px);
+}
+
+.Time {
+  left: 30px;
+  transform: translateY(4px);
+}
+
+.quantity {
+  width: 100%;
+  height: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 400px;
+  right: -100px;
+  white-space: nowrap;
+  transform: translateY(5px);
+  z-index: 0;
+}
+
+.Qty {
+  left: 30px;
+  transform: translateY(4px);
+
+}
+
+.productQuality {
+  width: 100%;
+  height: 10px;
+
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 450px;
+  right: -100px;
+  white-space: nowrap;
+  transform: translateY(5px);
+  z-index: 0;
+}
+
+
+.Quality {
+  left: 30px;
+  transform: translateY(4px);
+
+}
+
+.AppS {
+  width: 100%;
+  height: 10px;
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 450px;
+  right: -400px;
+  white-space: nowrap;
+  transform: translateY(5px);
+  z-index: 0;
+}
+
+.SA {
+  left: 30px;
+  transform: translateY(4px);
+}
+
+.YourInput {
+  width: 100%;
+  height: 10px;
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 450px;
+  right: -400px;
+  white-space: nowrap;
+  transform: translateY(5px);
+  z-index: 0;
+}
+
+.Inp {
+  left: 30px;
+  transform: translateY(4px);
+}
+
+.firstinstall {
+  width: 100%;
+  height: 10px;
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 350px;
+  right: -400px;
+  white-space: nowrap;
+  transform: translateY(5px);
+  z-index: 0;
+}
+
+.Fstin {
+  left: 30px;
+  transform: translateY(4px);
+}
+
+.DesiredBuyerprice {
+  width: 100%;
+  height: 10px;
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 500px;
+  right: -400px;
+  white-space: nowrap;
+  transform: translateY(5px);
+  z-index: 0;
+}
+
+.DBP {
+  left: 30px;
+  transform: translateY(4px);
+}
+
+.OrderShipped {
+  width: 100%;
+  height: 10px;
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 300px;
+  right: -400px;
+  white-space: nowrap;
+  transform: translateY(5px);
+  z-index: 0;
+}
+
+.Ship {
+  left: 30px;
+  transform: translateY(4px);
+}
+
+.DesiredSellersprice {
+  width: 100%;
+  height: 10px;
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 500px;
+  right: -400px;
+  white-space: nowrap;
+  transform: translateY(5px);
+  z-index: 0;
+}
+
+.DSP {
+  left: 30px;
+  transform: translateY(4px);
+}
+
+.AppB {
+  width: 100%;
+  height: 10px;
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 400px;
+  right: -400px;
+  white-space: nowrap;
+  transform: translateY(5px);
+  z-index: 0;
+}
+
+.BA {
+  left: 30px;
+  transform: translateY(4px);
+}
+
+.orderhasreceived {
+  width: 100%;
+  height: 10px;
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 350px;
+  right: -400px;
+  white-space: nowrap;
+  transform: translateY(5px);
+  z-index: 0;
+}
+
+.Received {
+  left: 30px;
+  transform: translateY(4px);
+}
+
+
+.Secondinstall {
+  width: 100%;
+  height: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 400px;
+  right: -400px;
+  white-space: nowrap;
+  transform: translateY(5px);
+  z-index: 0;
+}
+
+.Secin {
+  left: 30px;
+  transform: translateY(5px);
+}
+
+.withdraw {
+  width: 100%;
+  height: 425px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: corner;
+  position: absolute;
+  white-space: nowrap;
+  transform: translateY(5px);
+  top: 260px;
+  right: -100px;
+  z-index: 0;
+}
+
+.WTH {
+  left: 30px;
+  transform: translateY(5px);
+}
+
+.orderhasShip {
+  width: 100%;
+  height: 10px;
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 400px;
+  right: -100px;
+  white-space: nowrap;
+  transform: translateY(10px);
+  z-index: 0;
+}
+
+.Ship {
+  left: 30px;
+  transform: translateY(6px);
+}
+
+.secondColumn {
+  width: 800px;
+  min-height: 200px;
+}
+
+.transaction-container {
+  position: absolute;
+  top: 1;
+  right: 0;
+  width: 50%;
+  /* Adjust the width as needed */
+  /* Additional styling for spacing, if necessary */
+  margin: 10px;
+  /* Example spacing, adjust as needed */
+}
+
+.BuyersAdd {
+  width: 100%;
+  height: 10px;
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 300px;
+  right: -100px;
+  white-space: nowrap;
+  transform: translateY(10px);
+  z-index: 0;
+}
+
+.Badd {
+  left: 30px;
+  transform: translateY(6px);
+}
+
+.SellersAdd {
+  width: 100%;
+  height: 10px;
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 550px;
+  right: -100px;
+  white-space: nowrap;
+  transform: translateY(10px);
+  z-index: 0;
+}
+
+.Sadd {
+  left: 30px;
+  transform: translateY(6px);
+}
+
+.DeliveryT {
+  width: 100%;
+  height: 10px;
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 400px;
+  right: -100px;
+  white-space: nowrap;
+  transform: translateY(10px);
+  z-index: 0;
+}
+
+.DT {
+  left: 30px;
+  transform: translateY(6px);
+}
+
+.DeliveryD {
+  width: 100%;
+  height: 10px;
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 300px;
+  right: -500px;
+  white-space: nowrap;
+  transform: translateY(10px);
+  z-index: 0;
+}
+
+.DD {
+  left: 30px;
+  transform: translateY(6px);
+}
+
+
+.QuantityN {
+  width: 100%;
+  height: 10px;
+  justify-content: corner;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 350px;
+  right: -500px;
+  white-space: nowrap;
+  transform: translateY(10px);
+  z-index: 0;
+}
+
+.QntyN {
+  left: 30px;
+  transform: translateY(6px);
+}
+
+.ResState {
+  width: 100%;
+  height: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 410px;
+  right: -500px;
+  white-space: nowrap;
+  transform: translateY(5px);
+  z-index: 0;
+}
+
+.RS {
+  left: 30px;
+  transform: translateY(5px);
+}

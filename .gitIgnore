@@ -1,4 +1,8 @@
 node_modules/
 /abi.json
+<<<<<<< HEAD
 .env
 hardhat.config.env
+=======
+.env
+>>>>>>> origin/main

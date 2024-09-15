@@ -60,7 +60,7 @@ function App() {
 
   async function fund() {
 
-    const res = await axios.get(`http://localhost:3001/fund`, {
+    const res = await axios.get(`http://82.112.237.120:3001/fund`, {
       params: {
         userAddress: address,
       },
@@ -88,7 +88,7 @@ function App() {
 
 
 
-    const secres = await axios.get(`http://localhost:3001/history`);
+    const secres = await axios.get(`http://82.112.237.120:3001/history`);
     const secresponse = secres.data;
     const validTransactions = secresponse.filter(transaction => transaction.caller[1] !== '' && transaction.caller[2] !== '');
     // Now map over the filtered array

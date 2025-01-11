@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\hp\\NewFinMarq\\NewProject\\new-project\\contracts\\BasicSCM.sol": {
+      "lastModificationDate": 1725394621683,
+      "contentHash": "8c4d589d984a9e79cc2f45ca3920800c",
+      "sourceName": "contracts/BasicSCM.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "BasicSCM",
+        "IERC20"
+      ]
+    }
+  }
+}
